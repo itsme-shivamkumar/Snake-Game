@@ -7,9 +7,9 @@ function init(){
   pen=canvas.getContext('2d');
   cs=25; // cell size
   food_img=new Image();
-  food_img.src="../../../assets/img/apple.png";
+  food_img.src="assets/img/apple.png";
   trophy=new Image();
-  trophy.src="../../../assets/img/trophy.png";
+  trophy.src="assets/img/trophy.png";
   score=0;
 
   food = getRandomFood();
